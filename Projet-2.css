@@ -9,12 +9,6 @@ a {
     color: black;
 }
 
-.logo {
-    width: 6em;
-    padding-left: 15%;
-    padding-top: 20%;
-}
-
 .sectionrecherche, .sectionfiltre, .sectionPop, .sectionhebergement, .sectionactivite {
     padding-left: 4%;
     padding-right: 4%;
@@ -36,6 +30,12 @@ header p {
     font-weight: 700;
     font-size: 40px;
     padding-right: 30px;
+}
+
+.logo {
+    width: 6em;
+    padding-left: 15%;
+    padding-top: 20%;
 }
 
 .MenuHautContainer {
@@ -94,28 +94,20 @@ header p {
     margin-top: 0px;
 }
 
-.rechercheitem {
-    display: flex;
-    font-size: 20px;
-    border-radius: 25px;
-}
-
 .iconemap {
-    display: flex;
-    justify-content: initial;
-    height: 2.7em;
-    width: 2.7em;
-    background-color: rgb(94, 94, 94);
+    font-size: 42px;
+    background-color: rgb(242, 242, 242);
     color: black;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    padding: 20px;
+    border-radius: 25px 0 0 25px;
 }
 
-.iconerecherche {
+.iconeRecherche {
+    font-size: 42px;
     background-color: #0065FC;
     color: white;
-    width: 2.7em;
-    border-radius: 20px;
+    border-radius: 0 25px 25px 0;
+    padding: 20px;
 }
 
 .input {
@@ -133,9 +125,8 @@ header p {
 
 .filtre {
     display: inline-block;
-    border: 4px solid #d8d8d8;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border: 2px solid #d8d8d8;
+    border-radius: 100px;
     font-weight: 800;
     margin: 10px 15px 10px 0px;
 }
@@ -147,12 +138,12 @@ header p {
 
 .iconefiltre {
     position: relative;
+    right: 2px;
     color: #0065FC;
-    right: 4px;
     background-color: #DEEBFF;
-    font-size: 54px;
-    border-radius: 50%;
-    padding: 30px;
+    font-size: 45px;
+    border-radius: 100%;
+    padding: 35px;
 }
 
 .filtre p {
@@ -169,32 +160,41 @@ header p {
 }
 
 .iconeinfo {
+    display: inline-block;
     color: #0065FC;
+    font-size: 25px;
     position: relative;
-    top: 13px;
-    border: 4px solid #d8d8d8;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin: 10px;
+    top: 30px;
+    border: 2px solid #c5c5c5;
+    height: fit-content;
+    border-radius: 100%;
+    margin-right: 15px;
     padding: 15px;
 }
 
 .information p {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
 }
 
-/* Article */
+/* Propriétés Article */
 
 .article {
+    display: inline-block;
     box-shadow: 5px 10px 20px rgb(226, 226, 226);
     border-radius: 50px;
     background-color: rgb(255, 255, 255);
     margin-top: 25px;
+    margin-right: 25px;
     overflow: hidden;
     padding: 10px;
     height: 400px;
+    width: 880px;
+}
+
+.article:hover {
+    transform: scale(1.05);
+    transition: 1s;
 }
 
 .article h2 {
@@ -219,11 +219,9 @@ header p {
 }
 
 .iconepop {
-    position: relative;
     top: 9px;
-    justify-content: end;
-    font-size: 35px;
-    color: black;
+    position: relative;
+    left: 30%;
 }
 
 .articlePop img {
@@ -279,6 +277,10 @@ header p {
     padding-left: 30px;
 }
 
+.article i.etoilegrise {
+    color: grey;
+}
+
 .articleHebergement i {
     color: #0065FC;
     font-size: 35px;
@@ -292,6 +294,7 @@ header p {
     font-weight: 700;
     padding-top: 40px;
     margin-bottom: 0px;
+    width: auto;
 }
 
 /* Activités à Marseille */
@@ -323,27 +326,24 @@ header p {
 
 .footer {
     background-color: rgb(242, 242, 242);
-    display: flex;
+    padding-left: 4%;
+    padding-bottom: 5%;
     flex-direction: column;
-    padding-left: 5%;
-    padding-bottom: 50px;
 }
 
 .footer h2 {
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.footerItem {
+    width: 350px;
+    padding: 10px;
 }
 
 .footer p {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0px;
-    font-size: 35px;
-    font-weight: 400;
-}
-
-.footerItem {
-    display: flex;
-    flex-direction: column;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
 }

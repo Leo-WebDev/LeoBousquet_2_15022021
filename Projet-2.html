@@ -9,9 +9,8 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/d0d2493739.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Projet-2.css">
-    <link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 600px)' href="Telephone.css" />
-    <link rel="stylesheet" media='screen and (min-width: 600px) and (max-width: 940px)' href="Tablette.css" />
-    <link rel="stylesheet" media='screen and (min-width: 940px) and (max-width: 1415px)' href="Ordinateur.css" />
+    <link rel="stylesheet" media='screen and (min-width: 481px) and (max-width: 1024px)' href="Tablette_Laptop.css" />
+    <link rel="stylesheet" media='screen and (min-width: 1025px)' href="Desktop.css" />
 </head>
 
 <body>
@@ -42,7 +41,7 @@
 
     <main>
 
-        <!--Filtres-->
+        <!-- Recherche / Filtres -->
 
         <section class="sectionrecherche">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -52,7 +51,8 @@
                     <i class="iconemap fas fa-map-marker-alt"></i>
                 </div>
                 <input class="input" type="search" placeholder="Recherche" size="1">
-                <div class="rechercheitem"><i class="iconerecherche fas fa-search"></i>
+                <div class="rechercheitem">
+                    <a href="#"><i class="iconeRecherche fas fa-search"></i></a>
                 </div>
             </div>
         </section>
@@ -88,11 +88,11 @@
                         alt="Photo Hôtel Le soleil du matin">
                     <h2>Hôtel Le soleil du <br> matin</h2>
                     <p>Nuit à partir de 128€</p>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
                 </article>
             </a>
 
@@ -102,11 +102,11 @@
                         alt="Photo Au coeur de l'eau Chambres d'hôtes">
                     <h2>Au coeur de l'eau <br> Chambres d'hôtes</h2>
                     <p>Nuit à partir de 71€</p>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop etoilegrise fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star etoilegrise"></i>
                 </article>
             </a>
 
@@ -116,11 +116,11 @@
                         alt="Photo Hôtel Tout Bleu et Blanc">
                     <h2>Hôtel Tout Bleu et <br> Blanc</h2>
                     <p>Nuit à partir de 68€</p>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop fas fa-star"></i>
-                    <i class="etoilepop etoilegrise fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star etoilegrise"></i>
                 </article>
             </a>
         </section>
@@ -140,7 +140,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    <i class="fas etoilegrise fa-star"></i>
+                    <i class="fas fa-star etoilegrise" id="etoilegrise"></i>
                 </article>
             </a>
 
@@ -166,7 +166,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    <i class="fas etoilegrise fa-star"></i>
+                    <i class="fas fa-star etoilegrise"></i>
                 </article>
             </a>
 
@@ -178,8 +178,8 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    <i class="fas etoilegrise fa-star"></i>
-                    <i class="fas etoilegrise fa-star"></i>
+                    <i class="fas fa-star etoilegrise"></i>
+                    <i class="fas fa-star etoilegrise"></i>
                 </article>
             </a>
 
@@ -192,7 +192,7 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
-                    <i class="fas etoilegrise fa-star"></i>
+                    <i class="fas fa-star etoilegrise"></i>
                 </article>
             </a>
 
@@ -209,7 +209,10 @@
                 </article>
             </a>
 
-            <p class="Afficher">Afficher plus</p>
+            <a href="#">
+                <p class="Afficher">Afficher plus</p>
+            </a>
+
         </section>
 
         <!--Activités à Marseille-->
@@ -263,7 +266,9 @@
 
         </section>
     </main>
+
     <!--Footer-->
+
     <footer>
 
         <div class="footer">
