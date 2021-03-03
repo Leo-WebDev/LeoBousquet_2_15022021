@@ -1,1 +1,174 @@
-.
+/*Header*/
+
+header {
+    font-size: 25px;
+}
+
+header p {
+    font-size: 30px;
+}
+
+/*Main*/
+
+/* Recherche */
+
+.sectionrecherche {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.sectionrecherche p {
+    font-size: 25px;
+}
+
+.sectionrecherche h1 {
+    font-size: 30px;
+}
+
+.iconemap {
+    font-size: 25px;
+}
+
+.iconeRecherche {
+    font-size: 25px;
+}
+
+.recherche {
+    width: 12em;
+    font-size: 25px;
+}
+
+.input {
+    font-size: 25px;
+}
+
+/* Filtre */
+
+.sectionfiltre h1 {
+    font-size: 30px;
+}
+
+.filtre {
+    height: 60px;
+}
+
+.filtre p {
+    font-size: 20px;
+}
+
+.iconefiltre {
+    font-size: 25px;
+    padding: 18px;
+}
+
+.iconeinfo {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.information p {
+    font-size: 20px;
+    top: 20px;
+}
+
+/* Propriétés Article */
+
+.article {
+    margin-top: 25px;
+    margin-right: 25px;
+    height: 180px;
+    width: 360px;
+}
+
+.article h2 {
+    font-size: 20px;
+}
+
+.article p {
+    font-size: 18px;
+}
+
+/* Populaire */
+
+.sectionPop h1 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.articlePop i {
+    font-size: 18px;
+    position: relative;
+    bottom: 90%;
+    left: 45%;
+}
+
+/* Hébergements à Marseille */
+
+.sectionhebergement h1 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.articleHebergement {
+    height: 230px;
+}
+
+.articleHebergement h2 {
+    bottom: 15px;
+}
+
+.articleHebergement p {
+    bottom: 27px;
+}
+
+.articleHebergement i {
+    font-size: 18px;
+    bottom: 35px;
+}
+
+.Afficher {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+/* Activités à Marseille */
+
+.articleActivite {
+    height: 230px;
+    width: 374px;
+}
+
+.sectionactivite h1 {
+    font-size: 30px;
+}
+
+.articleActivite h2 {
+    font-size: 20px;
+}
+
+/*Footer*/
+
+.footer h2 {
+    font-size: 25px;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+.footerItem {
+    display: inline-block;
+    width: 30%;
+}
+
+.NosHebergements {
+    position: relative;
+    bottom: 43px;
+}
+
+.Assistance {
+    position: relative;
+    bottom: 73px;
+}
