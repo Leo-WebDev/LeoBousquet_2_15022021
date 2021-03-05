@@ -1,7 +1,6 @@
 /*Header*/
 
 header {
-    font-size: 25px;
     height: 150px;
 }
 
@@ -11,11 +10,9 @@ header p {
 
 .MenuBasLi {
     position: relative;
-    border-top: 8px solid rgb(242, 242, 242);
+    border-top: 8px solid rgb(255, 255, 255);
     border-bottom: none;
-    padding-top: 45px;
-    padding-bottom: 0px;
-    padding-right: 25px;
+    padding: 45px 25px;
     width: 14%;
     left: 55%;
     bottom: 133px;
@@ -28,11 +25,6 @@ header p {
 /*Main*/
 
 /* Recherche */
-
-.sectionrecherche {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
 
 .sectionrecherche h1 {
     font-size: 25px;
@@ -71,25 +63,6 @@ header p {
 
 .filtre {
     height: 60px;
-}
-
-.filtre p {
-    font-size: 20px;
-}
-
-.iconefiltre {
-    font-size: 25px;
-    padding: 18px;
-}
-
-.iconeinfo {
-    font-size: 18px;
-    padding: 10px;
-}
-
-.information p {
-    font-size: 20px;
-    top: 20px;
 }
 
 /* Propriétés Article */
@@ -286,7 +259,6 @@ header p {
 .footerdiv {
     width: 1300px;
     margin: 0 auto;
-    padding-top: 50px;
 }
 
 .footer h2 {
@@ -304,7 +276,7 @@ header p {
     padding-right: 10%;
 }
 
-.NosHebergements {
+/*.NosHebergements {
     position: relative;
     bottom: 43px;
 }
@@ -312,4 +284,4 @@ header p {
 .Assistance {
     position: relative;
     bottom: 73px;
-}.
+}.*/

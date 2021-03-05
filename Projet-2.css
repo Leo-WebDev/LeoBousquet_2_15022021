@@ -10,24 +10,25 @@ a {
 }
 
 .header, .sectionrecherche, .sectionfiltre, .sectionPop, .sectionhebergement, .sectionactivite {
-    padding-left: 4%;
-    padding-right: 4%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 4% 40px 4%;
 }
 
 /*Header*/
 
 header {
-    font-size: 35px;
+    font-size: 25px;
     background-color: rgb(255, 255, 255);
     font-weight: 500;
+}
+
+.header {
+    padding-bottom: 0px;
 }
 
 header p {
     color: #0065FC;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .logo {
@@ -62,28 +63,34 @@ header p {
 
 /* Recherche */
 
-.recherche {
-    display: flex;
-    width: 12em;
-    font-size: 35px;
-    border: 1px solid black;
-    border-radius: 20px;
+.sectionrecherche {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .sectionrecherche p {
     margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
 .sectionrecherche h1 {
-    font-size: 70px;
+    font-size: 30px;
     font-weight: 800;
     margin-top: 0px;
 }
 
+.recherche {
+    display: flex;
+    width: 12em;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
 .iconemap {
-    font-size: 42px;
+    font-size: 25px;
     background-color: rgb(242, 242, 242);
     color: black;
     padding: 20px;
@@ -91,7 +98,7 @@ header p {
 }
 
 .iconeRecherche {
-    font-size: 42px;
+    font-size: 25px;
     background-color: #0065FC;
     color: white;
     border-radius: 0 20px 20px 0;
@@ -105,7 +112,7 @@ header p {
     border-bottom: #F2F2F2 1px solid;
     padding-left: 10px;
     width: 14em;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -117,6 +124,16 @@ header p {
     border-radius: 100px;
     font-weight: 800;
     margin: 10px 15px 10px 0px;
+    height: 60px;
+}
+
+.filtre p {
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 25px;
 }
 
 .filtre:hover {
@@ -126,7 +143,7 @@ header p {
 }
 
 .sectionfiltre h1 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 800;
 }
 
@@ -135,18 +152,9 @@ header p {
     right: 2px;
     color: #0065FC;
     background-color: #DEEBFF;
-    font-size: 45px;
+    font-size: 25px;
     border-radius: 100%;
-    padding: 35px;
-}
-
-.filtre p {
-    display: inline-block;
-    position: relative;
-    bottom: 5px;
-    font-size: 35px;
-    padding-left: 15px;
-    padding-right: 25px;
+    padding: 18px;
 }
 
 .information {
@@ -156,21 +164,21 @@ header p {
 .iconeinfo {
     display: inline-block;
     color: #0065FC;
-    font-size: 25px;
+    font-size: 18px;
     position: relative;
     top: 30px;
     border: 2px solid #c5c5c5;
     height: fit-content;
     border-radius: 100%;
     margin-right: 15px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .information p {
     position: relative;
-    ;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 600;
+    top: 20px;
 }
 
 /* Propriétés Article */
@@ -182,8 +190,10 @@ header p {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     padding: 7px;
-    height: 400px;
-    width: 880px;
+    margin-top: 25px;
+    margin-right: 25px;
+    height: 180px;
+    width: 360px;
 }
 
 .article:hover {
@@ -192,12 +202,12 @@ header p {
 }
 
 .article h2 {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 800;
 }
 
 .article p {
-    font-size: 35px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -208,12 +218,13 @@ header p {
 }
 
 .sectionPop h1 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .iconepop {
-    top: 9px;
     float: right;
 }
 
@@ -233,21 +244,23 @@ header p {
 
 .articlePop i {
     color: #0065FC;
-    font-size: 35px;
+    font-size: 18px;
     position: relative;
-    bottom: 80%;
+    bottom: 90%;
     left: 45%;
 }
 
 /* Hébergements à Marseille */
 
 .sectionhebergement h1 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .articleHebergement {
-    height: 450px;
+    height: 230px;
 }
 
 .articleHebergement img {
@@ -260,13 +273,13 @@ header p {
 
 .articleHebergement h2 {
     position: relative;
-    bottom: 30px;
+    bottom: 15px;
     padding-left: 30px;
 }
 
 .articleHebergement p {
     position: relative;
-    bottom: 55px;
+    bottom: 27px;
     padding-left: 30px;
 }
 
@@ -276,16 +289,16 @@ header p {
 
 .articleHebergement i {
     color: #0065FC;
-    font-size: 35px;
+    font-size: 18px;
     position: relative;
-    bottom: 75px;
+    bottom: 35px;
     left: 30px;
 }
 
 .Afficher {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 700;
-    padding-top: 40px;
+    padding-top: 10px;
     margin-bottom: 0px;
     width: auto;
 }
@@ -293,14 +306,15 @@ header p {
 /* Activités à Marseille */
 
 .sectionactivite h1 {
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 800;
     margin-top: 0px;
 }
 
 .articleActivite {
     padding: 0px;
-    height: 450px;
+    height: 230px;
+    width: 374px;
 }
 
 .articleActivite img {
@@ -312,7 +326,7 @@ header p {
 }
 
 .articleActivite h2 {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 /*Footer*/
@@ -329,11 +343,11 @@ header p {
 }
 
 .footer h2 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .footerItem {
-    display: block;
+    display: inline-block;
     padding: 10px 10px 50px 0px;
     width: 30%;
     height: 200px;
@@ -343,6 +357,6 @@ header p {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
