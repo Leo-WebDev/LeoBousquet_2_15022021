@@ -13,7 +13,7 @@ a {
     padding: 40px 4% 40px 4%;
 }
 
-/*Header*/
+/* Header */
 
 header {
     font-size: 25px;
@@ -26,6 +26,8 @@ header {
 }
 
 header p {
+    position: relative;
+    bottom: 5px;
     color: #0065FC;
     font-weight: 700;
     font-size: 30px;
@@ -59,7 +61,7 @@ header p {
     border-color: #0065FC;
 }
 
-/*Main*/
+/* Main */
 
 /* Recherche */
 
@@ -305,6 +307,10 @@ header p {
 
 /* Activités à Marseille */
 
+.sectionactivite {
+    margin: 0 auto;
+}
+
 .sectionactivite h1 {
     font-size: 30px;
     font-weight: 800;
@@ -329,7 +335,11 @@ header p {
     padding-left: 20px;
 }
 
-/*Footer*/
+/* Footer */
+
+.footerdiv {
+    flex-direction: column;
+}
 
 .footer {
     justify-content: start;
@@ -347,10 +357,7 @@ header p {
 }
 
 .footerItem {
-    display: inline-block;
-    padding: 10px 10px 50px 0px;
-    width: 30%;
-    height: 200px;
+    padding: 10px 10px 20px 0px;
 }
 
 .footer p {
