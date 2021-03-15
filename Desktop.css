@@ -46,6 +46,7 @@ header p {
 .Rechercher {
     position: relative;
     top: 18px;
+    left: 1px;
     display: initial;
     color: rgb(255, 255, 255);
     background-color: #0065FC;
