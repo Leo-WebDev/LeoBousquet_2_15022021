@@ -26,7 +26,7 @@ header p {
 
 /* Recherche */
 
-.sectionrecherche h1 {
+.sectionrecherche h2 {
     font-size: 25px;
 }
 
@@ -40,10 +40,21 @@ header p {
 
 .iconeRecherche {
     font-size: 20px;
+    display: none;
+}
+
+.Rechercher {
+    position: relative;
+    top: 18px;
+    display: initial;
+    color: rgb(255, 255, 255);
+    background-color: #0065FC;
+    border-radius: 0 20px 20px 0;
+    padding: 18px;
 }
 
 .recherche {
-    width: 16em;
+    width: 21em;
     font-size: 20px;
 }
 
@@ -53,7 +64,7 @@ header p {
 
 /* Filtre */
 
-.sectionfiltre h1 {
+.sectionfiltre h2 {
     position: relative;
     top: 5px;
     font-size: 25px;
@@ -72,7 +83,7 @@ header p {
     margin-right: 25px;
 }
 
-.article h2 {
+.article h3 {
     font-size: 20px;
 }
 
@@ -93,7 +104,7 @@ header p {
     padding: 40px 2% 40px 2%;
 }
 
-.sectionPop h1 {
+.sectionPop h2 {
     font-size: 25px;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -106,7 +117,7 @@ header p {
     width: 300px;
 }
 
-.articlePop h2 {
+.articlePop h3 {
     font-size: 18px;
 }
 
@@ -133,7 +144,7 @@ header p {
     padding: 0px;
 }
 
-.sectionhebergement h1 {
+.sectionhebergement h2 {
     font-size: 25px;
     margin-left: 30px;
     margin-bottom: 0px;
@@ -146,7 +157,7 @@ header p {
     margin: 50px 0px 0px 25px;
 }
 
-.articleHebergement h2 {
+.articleHebergement h3 {
     bottom: 15px;
     font-size: 18px;
     padding-left: 15px;
@@ -180,7 +191,7 @@ header p {
     width: 374px;
 }
 
-.articleActivite h2 {
+.articleActivite h3 {
     font-size: 20px;
 }
 
@@ -193,7 +204,7 @@ header p {
     width: 1300px;
 }
 
-.sectionactivite h1 {
+.sectionactivite h2 {
     font-size: 25px;
 }
 
